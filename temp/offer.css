@@ -1,0 +1,19 @@
+.offer {
+    height: fit-content;
+    width: 100%;
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+}
+
+.offer img {
+    width: 500px;
+    height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Your responsive styles here */
+    .offer img {
+        width: 200px;
+        height: 100px;
+    }
+}

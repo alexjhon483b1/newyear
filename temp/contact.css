@@ -1,0 +1,28 @@
+.contact {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    background: linear-gradient(to top, #ffffff, #fababa);
+    font-size: larger;
+}
+
+.contact strong {
+    color: red;
+}
+
+.contact button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f00101;
+    /* Button background color */
+    color: #ffffff;
+    /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

@@ -1,0 +1,43 @@
+.comming {
+    justify-content: center;
+    display: flex;
+    color: red;
+    align-items: center;
+}
+
+.roundimg img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.roundimg {
+    border: 10px solid red;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.discount {
+    width: 100%;
+}
+
+
+/* Example: Apply styles only for screens with a width of 768 pixels or less */
+
+@media screen and (max-width: 768px) {
+    /* Your responsive styles here */
+    .roundimg {
+        border: 5px solid red;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .roundimg img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        padding: 5px;
+    }
+}

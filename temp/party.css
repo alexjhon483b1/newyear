@@ -1,0 +1,19 @@
+.party {
+    background-image: url('res/party.jpg');
+    background-size: cover;
+    /* Adjust the size of the background image */
+    background-position: center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+
+.partydiv {
+    display: block;
+}
