@@ -1,0 +1,39 @@
+.cardiv {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow cards to wrap to the next line */
+    justify-content: space-around;
+    /* Adjust the spacing between cards */
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+    width: 220px;
+    /* Set the width of the square card */
+    height: 220px;
+    /* Set the height of the square card */
+    background-size: cover;
+    /* Adjust the size of the background image */
+    background-position: center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    /* Set the background color */
+    border: 1px solid #ffffff;
+    /* Set a border for the card */
+    border-radius: 10px;
+    /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a box shadow for depth */
+    text-align: center;
+}
+
+
+/* Example: Apply styles only for screens with a width of 768 pixels or less */
+
+@media screen and (max-width: 768px) {
+    /* Your responsive styles here */
+    .card {
+        width: 120px;
+        height: 120px;
+    }
+}
